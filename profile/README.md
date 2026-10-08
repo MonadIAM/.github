@@ -11,8 +11,9 @@ notifications, and infrastructure.
 in my spare time.
 
 ----
-### Domains
-----
+
+<details>
+<summary><strong>Domains</strong></summary>
 
 #### Identity and Access Management · IAM
 
@@ -44,9 +45,12 @@ provide a common organizational context for IAM and HRM.
 Organization membership, access permissions, and employment records are
 managed as distinct concepts by their respective services.
 
+</details>
+
 ----
-### Services
-----
+
+<details>
+<summary><strong>Services</strong></summary>
 
 | Repository                                                                   | Area        | Responsibility                                                                                |
 |:-----------------------------------------------------------------------------|:------------|:----------------------------------------------------------------------------------------------|
@@ -56,9 +60,12 @@ managed as distinct concepts by their respective services.
 | [organization-service](https://github.com/MonadIAM/organization-service)     | IAM / HRM   | Organizational structure, memberships, project assignments, and invitations.                  |
 | [hr-service](https://github.com/MonadIAM/hr-service)                         | HRM         | Employee records, staffing, work schedules, leave, and approval workflows.                    |
 
+</details>
+
 ----
-### Platform components
-----
+
+<details>
+<summary><strong>Platform components</strong></summary>
 
 | Repository                                                       | Responsibility                                                                                                                    |
 |:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
@@ -66,9 +73,11 @@ managed as distinct concepts by their respective services.
 | [infra](https://github.com/MonadIAM/infra)                       | Shared local infrastructure for data storage, messaging, secrets, audit archival, and observability.                              |
 | [template-service](https://github.com/MonadIAM/template-service) | NestJS service foundation with authentication and authorization integration, audit/change logs, messaging, and retention cleanup. |
 
+</details>
+
 ----
-### Getting started
-----
+
+#### Getting started
 
 Start with the [local infrastructure](https://github.com/MonadIAM/infra),
 then follow the setup instructions in the required service repositories.
